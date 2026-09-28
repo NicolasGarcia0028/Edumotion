@@ -1,0 +1,107 @@
+/*ESCRUTORIO*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Clases especiales */
+.borde{
+    border: 1px solid gray;
+}
+.titulo{
+    width: 100%;
+    height: 50px;
+}
+/* Contenedor */
+.contenedor{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+/* Navegador */
+.nav{
+    width: 100%;
+    height: 50px;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+    background: rgb(255, 0, 0);
+    float: left;
+}
+.menu{
+    width: 65%;
+    height: 100%;
+    padding: 5px;
+    float: left;
+    background: #00f000;
+    ;
+}
+.login{
+    width: 15%;
+    height: 100%;
+    padding: 5px;
+    float: left;
+    background: salmon;
+}
+/* Encabezado */
+.header{
+    width: 100%;
+    height: 400px;
+}
+/* Portafolio */
+.portafolio{
+    width: 100%;
+    height: 500px;
+}
+.port-col{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+/* Nosotros */
+.nosotros{
+    width: 100%;
+    height: 500px;
+}
+.nos-fila{
+    width: 100%;
+    height: 33.33%;
+}
+.nos-fila-col-ext{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.nos-fila-col-cnt{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+/* Contáctenos */
+.contacto{
+    width: 100%;
+    height: 500px;
+}
+.cont-col{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.cont-col-fila-arr{
+    width: 100%;
+    height: 70%;
+}
+.cont-col-fila-abj{
+    width: 100%;
+    height: 30%;
+}
+/* Pie de Página */
+.footer{
+    width: 100%;
+    height: 50px;
+}
+
+/*TABLET*/
+
